@@ -1,4 +1,6 @@
 header{
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(207, 244, 155);
 }
 nav{
@@ -19,4 +21,10 @@ aside{
 footer{
     background-color: bisque;
     padding: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
